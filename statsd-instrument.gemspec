@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
-  s.name        = "statsd-instrument"
+  s.name        = "scribd-statsd-instrument"
   s.version     = '1.5.0'
   s.authors     = ["Jesse Storimer", "Tobias Lutke"]
   s.email       = ["jesse@shopify.com"]
   s.homepage    = "http://github.com/shopify/statsd-instrument"
 
-  s.summary     = %q{A StatsD client for Ruby apps}
+  s.summary     = %q{A StatsD client for Ruby apps (Scribd version)}
   s.description = %q{A StatsD client for Ruby apps. Provides metaprogramming methods to inject StatsD instrumentation into your code.}
 
   s.files         = `git ls-files`.split("\n")
